@@ -59,7 +59,7 @@ const speciesData = [
   {
     name: "Calico Bass (Kelp Bass)",
     icon: "🐠",
-    imageUrl: "https://www.takemefishing.org/getmedia/2ba14bbc-ae23-43ab-9e6b-f0f47e48fdac/kelp-bass-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paralabrax_clathratus.jpg",
     color: "#4A7C59",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -150,7 +150,7 @@ const speciesData = [
   {
     name: "Yellowtail Amberjack",
     icon: "💛",
-    imageUrl: "https://www.takemefishing.org/getmedia/38e543d1-3ddc-4162-bc15-785a421e9771/california-yellowtail-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/Yellowtail_amberjack.jpg",
     color: "#DAA520",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -196,7 +196,7 @@ const speciesData = [
   {
     name: "Vermilion/Sunset Rockfish",
     icon: "🔴",
-    imageUrl: "https://www.fishbase.se/images/species/Semin_u0.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/63/Sebastes_miniatus_8.jpg",
     color: "#CC3333",
     zone: Zone.OFFSHORE,
     season: "April - December",
@@ -288,7 +288,7 @@ const speciesData = [
   {
     name: "California Halibut",
     icon: "🐟",
-    imageUrl: "https://www.takemefishing.org/getmedia/35734d12-c968-4c89-9d3c-c9c2d4deffb5/california-halibut-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/db/Halibut_300.jpg",
     color: "#8B7355",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -334,7 +334,7 @@ const speciesData = [
   {
     name: "Spotted Sand Bass",
     icon: "🐠",
-    imageUrl: "https://www.fishbase.se/images/species/Prmac_u0.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Paralabrax_maculatofasciatus.jpg",
     color: "#6B8E23",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -380,7 +380,7 @@ const speciesData = [
   {
     name: "California Corbina",
     icon: "🏖️",
-    imageUrl: "https://www.takemefishing.org/getmedia/100a1cea-004f-4f30-8870-1fb76ecf57bb/california-corbina-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/74/California_corbina.JPG",
     color: "#B8860B",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -426,7 +426,7 @@ const speciesData = [
   {
     name: "White Seabass",
     icon: "⚪",
-    imageUrl: "https://www.takemefishing.org/getmedia/ae4a6cd6-9d2d-4d1d-a095-84150ef80133/white-seabass-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2b/Atractoscion_nobilis_mspc096.jpg",
     color: "#708090",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -472,7 +472,7 @@ const speciesData = [
   {
     name: "Yellowfin Tuna",
     icon: "🎣",
-    imageUrl: "https://www.takemefishing.org/getmedia/5eeb667f-dafd-4a95-b7ef-60fcbbbc9f26/yellowfin-tuna-464x170.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Thunnus_albacares.png",
     color: "#FFD700",
     zone: Zone.OFFSHORE,
     season: "June - October",
@@ -512,7 +512,7 @@ const speciesData = [
   {
     name: "Albacore Tuna",
     icon: "🐡",
-    imageUrl: "https://www.takemefishing.org/getmedia/8d0e8b8e-4fbe-4c1e-a7ad-209284810e6d/albacore-464x170-Copy.png?width=464&height=170&ext=.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Thon_germon_%28Thunnus_alalunga%29_%28Ifremer_00764-87615%29.jpg",
     color: "#4682B4",
     zone: Zone.OFFSHORE,
     season: "July - October",
@@ -552,7 +552,7 @@ const speciesData = [
   {
     name: "Pacific Bonito",
     icon: "🐟",
-    imageUrl: "https://www.takemefishing.org/getmedia/d38af84a-ef38-472c-9f99-b5a9a9776e9a/pacific-bonito-464x170.png?width=464&height=170&ext=.png",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sachi_u0.gif",
     color: "#2F6B9E",
     zone: Zone.NEARSHORE,
     season: "April - November",
@@ -632,7 +632,7 @@ const speciesData = [
   {
     name: "Leopard Shark",
     icon: "🦈",
-    imageUrl: "https://www.fishbase.se/images/species/Trsem_u0.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Leopard_shark_in_kelp.jpg",
     color: "#6B6B6B",
     zone: Zone.NEARSHORE,
     season: "Year-round",
@@ -758,7 +758,7 @@ const speciesData = [
   {
     name: "Pacific Barracuda",
     icon: "🐟",
-    imageUrl: "/uploads/species/pacific-barracuda.jpg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Sphyraena_argentea.jpg",
     color: "#5A7A5A",
     zone: Zone.OFFSHORE,
     season: "April - October",
