@@ -1,5 +1,5 @@
 // Live conditions service for San Diego, CA
-// Sources: NWS Weather (two-step points → hourly), NOAA Tides, NDBC Buoy
+// Sources: NWS/KSAN (primary), Open-Meteo (fallback), NOAA Tides, NDBC Buoy
 
 const SD_LAT = 32.7157;
 const SD_LON = -117.1611;
