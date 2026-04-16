@@ -229,7 +229,7 @@ app.get("/api/species/:slug/catches", async (req, res) => {
     const total = catches.length;
     const avgWeight =
       total > 0
-        ? Math.round((catches.reduce((sum, c) => sum + c.weightLbs, 0) / total) * 10) / 10
+        ? Math.round((catches.reduce((sum: number, c: { weightLbs: number }) => sum + c.weightLbs, 0) / total) * 10) / 10
         : null;
 
     const locationCounts: Record<string, number> = {};
