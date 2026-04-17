@@ -95,7 +95,7 @@ export default function Layout() {
             <button
               onClick={toggle}
               title={compact ? "Switch to desktop view" : "Switch to mobile view"}
-              className="flex items-center gap-1.5 text-xs font-mono px-2.5 py-1.5 rounded-md border border-navy-600 text-gray-400 hover:text-sand hover:border-sand/40 transition-colors"
+              className="hidden sm:flex items-center gap-1.5 text-xs font-mono px-2.5 py-1.5 rounded-md border border-navy-600 text-gray-400 hover:text-sand hover:border-sand/40 transition-colors"
             >
               {compact ? <MonitorIcon /> : <PhoneIcon />}
               <span className="hidden sm:inline">
