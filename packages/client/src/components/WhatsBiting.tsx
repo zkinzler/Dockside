@@ -149,16 +149,16 @@ function RecommendationCard({ species }: { species: ScoredSpecies }) {
             <p className="text-sm font-mono text-gray-400">
               {species.reason}
             </p>
-            <div className="grid grid-cols-3 gap-2">
-              <div className="bg-navy-900/60 rounded px-2 py-1">
+            <div className="flex gap-2 w-full">
+              <div className="flex-1 bg-navy-900/60 rounded px-2 py-1">
                 <span className="text-[10px] font-mono text-gray-600 uppercase tracking-wide block">Zone</span>
                 <span className="text-xs font-mono text-gray-300 capitalize">{species.zone.toLowerCase()}</span>
               </div>
-              <div className="bg-navy-900/60 rounded px-2 py-1">
+              <div className="flex-1 bg-navy-900/60 rounded px-2 py-1">
                 <span className="text-[10px] font-mono text-gray-600 uppercase tracking-wide block">Avg Size</span>
                 <span className="text-xs font-mono text-gray-300">{species.avgSize}</span>
               </div>
-              <div className="bg-navy-900/60 rounded px-2 py-1">
+              <div className="flex-1 bg-navy-900/60 rounded px-2 py-1">
                 <span className="text-[10px] font-mono text-gray-600 uppercase tracking-wide block">Limit</span>
                 <span className="text-xs font-mono text-gray-300">{species.bagLimit}</span>
               </div>
