@@ -117,7 +117,7 @@ function RecommendationCard({ species }: { species: ScoredSpecies }) {
   const config = ratingConfig[species.rating];
 
   return (
-    <div className="bg-navy-800/50 border border-navy-700/50 rounded-xl overflow-hidden hover:border-sand/20 transition-all">
+    <div className="bg-navy-800/50 border border-navy-700/50 rounded-xl hover:border-sand/20 transition-all">
       <div className={`flex ${compact ? "flex-col" : "flex-row"}`}>
         {/* Fish image */}
         <Link
@@ -142,11 +142,11 @@ function RecommendationCard({ species }: { species: ScoredSpecies }) {
           {/* Left: name, reason, stats */}
           <div className="flex-1 flex flex-col gap-2 sm:gap-3 min-w-0">
             <Link to={`/species/${species.slug}`} className="group min-w-0">
-              <h4 className="text-lg font-semibold text-gray-100 group-hover:text-sand transition-colors leading-tight truncate">
+              <h4 className="text-lg font-semibold text-gray-100 group-hover:text-sand transition-colors leading-tight">
                 {species.name}
               </h4>
             </Link>
-            <p className="text-sm font-mono text-gray-400 truncate">
+            <p className="text-sm font-mono text-gray-400">
               {species.reason}
             </p>
             <div className="grid grid-cols-3 gap-2">
