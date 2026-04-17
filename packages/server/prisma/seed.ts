@@ -519,7 +519,7 @@ const speciesData = [
     peakSeason: "July - October",
     primeHour: "Morning trips produce the most consistent action, with early-morning trolling and surface fishing peaking in the first few hours after dawn. Night fishing can also be productive when fish are feeding near the surface.",
     avgSize: "15-35 pounds",
-    bagLimit: "25 fish",
+    bagLimit: "10 fish per day",
     sizeLimit: "none",
     migrationPatterns: "Albacore travel in large schools across the Pacific, following temperature breaks and bait concentrations. They arrive in San Diego offshore waters from July through October, typically found 50–150 miles offshore where water temps hit 60–68°F.",
     idealTides: "Not as particular",
